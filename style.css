@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style type="text/css">
+   
+    :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1"Font Awesome 6 Free";
+    background: hotpink;
+    height: auto;
+    width: auto;
+}
+    *{
+    padding: 0;margin: 0; box-sizing: border-box; font-family: sans-serif;
+}
+/* Header */
+header{
+    width: 100%;
+    height: 100vh;
+    background:url(logo1.jpg);
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: relative;
+    background-color: rgb(236, 178, 188);
+}
+/* navbar */
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0px 70px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px grey;
+}
+/* logo */
+.logoe{
+font-weight: bold;
+font-size: 2em;
+letter-spacing: 2px;
+}
+.logoe span{
+color: #de5d83;
+}
+.menu a{
+    text-decoration: none;
+    color: hotpink;
+    padding: 10px 20px;
+    border-radius: 8px solid magenta;
+}
+.menu a:first-child{
+    background: rgb(155, 69, 146);
+    color: white;
+    border-radius: 8px solid magenta;
+}
+.menu a:last-child{
+    background: rgb(214, 23, 195);
+    color: white;
+    border-radius: 8px solid  magenta;
+}
+/* header text */
+.h-text{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    padding: 15px;
+}
+.h-text p{
+    color: purple;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-style: italic;
+}
+.h-text h1{
+    font: size 6em; 
+    line-height: 1.5em;
+}
+.h-text h1 span{
+    color: #ff007f;
+}
+.h-text h2{
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+    color:#5e4c4eb1 ;
+    text-decoration: underline;
+}
+#Order{
+    text-decoration: none;
+    color: white;
+    background: #ff007f;
+    border-radius: 6px;
+    padding: 10px 30px;
+}
+#dis{
+    text-decoration: none;
+    color: white;
+    background: #C27E79;
+    border-radius: 6px;
+    padding: 10px 30px;
+}
+/* hero section */
+.hero-section{
+    background-size: cover;
+    height: 600px;
+    display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.hero-menu{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 85%;
+    margin-bottom: 30px;
+}
+.hero-menu a{
+    color:#ff007f;
+}
+.hero-menu h3{
+color:#ff007f;
+font-style: italic;
+font-weight: 400;
+}
+.hero-menu span{
+color: #C27E79;
+}
+/* menu section box */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ccc1c1ee ;
+}
+
+.box{
+     border: 2px solid black; 
+    height: 900px;
+    width: 50%;
+    background-color: rgba(204, 193, 193, 0.932);
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}
+
+.box-img{
+    height: 520px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #e2e7e6;
+}
+
+.box-content p{
+    color: #ff1493;
+    
+}
+.box-content h3{
+    color: rgb(104, 103, 103);
+    text-align: center;
+    margin-bottom:2px ;
+    border-radius: 2px solid grey;
+    font-size: x-large;
+    font-style: italic;
+}
+.add-icon{
+    color: #ad706c;
+}
+
+ footer{
+    width: fit-content;
+    height:fit-content;
+    margin-top: 5PX;
+    padding: 5PX 10PX;
+}
+.foot-panel1{
+    background-color:#7c7474;
+    color: white;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.foot-panel2{
+    background-color: #d1498dbd;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+display:block;
+font-size: 0.85rem;
+margin-top: 10px;
+color: white;
+}
+.foot-panel3{
+background-color: #eb92bebd;
+color: white;
+border-top: 0.5px solid rgb(227, 34, 162);
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo{
+    background-image: url("small.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+} 
+.foot-pannel4{
+    background-color: rgb(164, 160, 160);
+    color: white;
+    height: 76px;
+     display: flex; 
+     justify-content: center;
+    align-items: center;
+}
+.pages{
+font-size: 0.7rem;
+text-align: center;
+padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center; 
+} 
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+           
+            <div class="logoe"><SPAN>DELECTABLE</SPAN>DONUTS</div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Foods</a>
+                <a href="#">Menu</a> 
+                <a href="#">Your Order</a>
+                <a href="#">Delivery</a>
+                <a href="#">Cart<Cart class="cart"><i class="fa-solid fa-cart-shopping"></i></Cart></a>
+            </div>   
+        </nav>
+        <div class="h-text">
+            <p>Free Home Delivery</p>
+            <h1>OUR DONU<span>TS ARE <br> HANDCRAFT</span>ED WITH LOVE.</h1>
+            <h2>Our Best Seller</h2>
+            <a href="#" id="Order">Order now !!</a>
+            <a href="#" id="dis">30% off on all order Hurry Now!!</a>
+        </div>
+        <div class="hero-section">
+            <div class="hero-menu">
+                <p><H3>Delect<SPAN>able </SPAN>Donut MENU!!!</H3> Here you can find all our best sellers and some delecious items so do check our menu.. 
+                    <a> 
+                        Click here to go to delectable donut.in </a>
+                </p>
+            </div>
+        </div>
+        <!-- menu section box -->
+        <div class="shop-section">
+            <div class="box1 box">
+                <div class="box-content">
+                    <h2>Muffins</h2>
+                    <div class="box-img" style="background-image: url('muffins.jpg');"></div>
+                    <h3>OUR PRICE LIST</h3>
+                    <p>double chocolate Muffins<div class="add-icon"><i class="fa-light fa-dollar-sign">2.5</i></div></p>
+                    <br>
+                    <p>Chocolate banana Muffins<div class="add-icon"><i class="fa-light fa-dollar-sign">1.25</i></div></p>
+                    <br>
+                    <p>Chocolate expresso Muffins<div class="add-icon"><i class="fa-light fa-dollar-sign">3.5</i></div></p>
+                    <br>
+                    <p>Chocolate chip Cookies<div class="add-icon"><i class="fa-light fa-dollar-sign">4.2</i></div></p>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="box-content">
+                    <h2>Donuts</h2>
+                    <div class="box-img" style="background-image: url('chocolate\ donut.jpg');"></div>
+                    <h3>OUR PRICE LIST</h3>
+                        <p>Double Chocolate donut<div class="add-icon"><i class="fa-light fa-dollar-sign">3.1
+                        </i></div></p>
+                        <br>
+                        <p>choco chip donut<div class="add-icon"><i class="fa-light fa-dollar-sign">4.1
+                        </i></div></p>
+                        <br>
+                        <p>Chocolate expresso donut<div class="add-icon"><i class="fa-light fa-dollar-sign">2.1
+                        </i></div></p>
+                        <br>
+                        <p>Chocolate banana donut<div class="add-icon"><i class="fa-light fa-dollar-sign">3.3
+                        </i></div></p>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="box-content">
+                    <h2>Cookies </h2>
+                    <div class="box-img" style="background-image: url('cookies.jpg');"></div>
+                    <h3>OUR PRICE LIST</h3>
+                        <p>Choco chip Cookies<div class="add-icon"><i class="fa-light fa-dollar-sign">2.2</i></div></p>
+                        <br>
+                        <p>double chocolate Cookies<div class="add-icon"><i class="fa-light fa-dollar-sign">1.8</i></div></p>
+                        <br>
+                        <p>Chocolate banana Cookies<div class="add-icon"><i class="fa-light fa-dollar-sign">2.25</i></div></p>
+                        <br>
+                        <p>Chocolate delight Cookies<div class="add-icon"><i class="fa-light fa-dollar-sign">3.45</i></div></p>
+                        
+                        
+                        
+                </div>
+            </div>
+            <div class="box4 box">
+                <div class="box-content">
+                    <h2>drinks & beverages</h2>
+                    <div class="box-img" style="background-image: url('coldcoffee.avif');"></div>
+                    <h3>OUR PRICE LIST</h3>
+                        <p>Chocolate shake<div class="add-icon"><i class="fa-light fa-dollar-sign"></i>1.9</div></p>
+                        <br>
+                        <p>Milk shake<div class="add-icon"><i class="fa-light fa-dollar-sign"></i>5.3</div></p>
+                        <br>
+                        <p>cold coffee with icecream shake<div class="add-icon"><i class="fa-light fa-dollar-sign"></i>2.85</div></p>
+                        <br>
+                        <p>strawberry shake<div class="add-icon"><i class="fa-light fa-dollar-sign"></i>2.9</div></p>
+                </div>
+            </div> 
+                   <!--Footer pannel-->
+                   <footer>
+                    <div class="foot-panel1">
+                        Back to Top
+                    </div>
+                    <div class="foot-panel2">
+                        <ul>
+                            <p>ABOUT DELECTABLE DONUTS </p>
+                            <a>Who We Are</a>
+                            <a>Blog</a>
+                            <a>Work With Us</a>
+                            <a>Investor Relations</a>
+                            <a>Report Fraud</a>
+                            <a>Contact Us</a>     
+                        </ul>
+                        <ul>
+                            <p>Social Links </p>
+                            <a>FOLLOW US ON INSTAGRAM<div class="icon"><i class="fa-brands fa-instagram"></i></div></a>
+                            <a>Do Subscribe Our Youtube Channel<div class="icon1"><i class="fa-brands fa-youtube"></i></div></a>
+                            <a>Follow Us ON FACEBOOK<div class="icon2"><i class="fa-brands fa-facebook"></i></div></a>
+                            <a>Follow Us On Twitter<div class="icon3"><i class="fa-brands fa-twitter"></i></div></a>
+                                   </ul>
+                        <ul>
+                            <p>FOR RESTAURANTS</p>
+                            <a>Partner With Us</a>
+                            <a>Apps For You</a>
+                        </ul>
+                       
+                    </div>
+                
+                    <div class="foot-panel3">
+                        <div class="logo"></div>
+                    </div>
+                
+                    <div class="foot-pannel4">
+                        <div class="pages">
+                            <a>Condition Of Use</a>
+                            <a>Privicy Notice</a>
+                            <a>Your Ads Privicy Choices</a>
+                            <a>Security</a>
+                        </div>
+                        <div class="copyright">© 1994-2023, delectable Donuts, Inc. or its affiliates
+                            
+                        </div>
+                    </div>
+                </footer>
+                
+    </header>
+</body>
+</html>
